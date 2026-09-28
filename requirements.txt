@@ -1,0 +1,16 @@
+# Part A
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+xgboost>=2.1
+matplotlib>=3.9
+kagglehub>=0.3        # optional: downloads creditcard.csv if it isn't present
+jupyterlab>=4.2       # to run the notebook locally (Colab needs nothing extra)
+jupytext>=1.16        # only to regenerate the .ipynb from the .py source
+
+# Part B
+openai>=1.40          # OpenAI-compatible client, used for Gemini / Groq / OpenAI / Ollama
+pydantic>=2.7
+requests>=2.32
+pyarrow>=16           # reads the CFPB parquet snapshot
+pytest>=8
